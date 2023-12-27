@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        text-align: center;
+        border: 1px solid black;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 1000px;
+        margin: 100px auto;
+      }
+      #insert-city {
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+      }
+      #search {
+        height: 40px;
+        width: 40px;
+        margin-left: -43px;
+        border-radius: 20px;
+      }
+      .lower {
+        margin-top: 150px;
+      }
+      .text {
+        text-align: center;
+      }
+      .emoji {
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="upper">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form>
+              <input
+                type="search"
+                id="insert-city"
+                placeholder="Enter city here"
+              />
+              <input type="submit" value="🔍" id="search" />
+            </form>
+          </div>
+          <div class="col">
+            <h1>Sao Paulo</h1>
+            <h2>Friday</h2>
+          </div>
+          <div class="col">
+            <h1>15°C</h1>
+            <h3>60F</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lower">
+      <div class="container">
+        <div class="row text">
+          <div class="col">
+            <span class="emoji"> ☀️ </span>
+            <br />
+            <h2>
+              21°C/13°C <br />
+              Sat
+            </h2>
+          </div>
+          <div class="col">
+            <span class="emoji"> ☀️ </span>
+            <br />
+            <h2>
+              21°C/14°C <br />
+              Sun
+            </h2>
+          </div>
+          <div class="col">
+            <span class="emoji"> ☀️ </span>
+            <br />
+            <h2>
+              23°C/13°C <br />
+              Mon
+            </h2>
+          </div>
+          <div class="col">
+            <span class="emoji"> ☀️ </span>
+            <br />
+            <h2>
+              24°C/14°C <br />
+              Tue
+            </h2>
+          </div>
+          <div class="col">
+            <span class="emoji"> ☀️ </span>
+            <br />
+            <h2>
+              24°C/15°C <br />
+              Wed
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

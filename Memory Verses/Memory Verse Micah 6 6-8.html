@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Verse - Micah 6</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+      h1,
+      p {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      h1:hover,
+      h2:hover {
+        color: #6c63ff;
+      }
+      p:hover {
+        color: #fd6584;
+      }
+      button {
+        border: 1px solid black;
+        border-radius: 40px;
+        line-height: 18px;
+        padding: 20px;
+        display: block;
+        margin: 0 auto;
+        background-color: rgba(108, 99, 255, 0.8);
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgba(253, 101, 132, 0.8);
+      }
+      .parent {
+        border: 1px none black;
+        margin: 1rem;
+        text-align: center;
+      }
+      .child {
+        display: inline-block;
+        border: 1px none black;
+        vertical-align: middle;
+      }
+      .left-side {
+        border: 2px dotted black;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 760px;
+        float: left;
+        padding: 5px 5px;
+      }
+      .right-side {
+        border: 2px dotted black;
+        margin-top: -636px;
+        float: right;
+        margin-left: 750px;
+        padding: 5px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Memory Verse</h1>
+    <p>
+      Rebeca Souza
+      <br />
+      Religion IV
+      <br />
+      Last Memory Verse - 05/13/2022
+      <br />
+      Micah 6:6-8
+    </p>
+    <hr />
+    <div class="parent">
+      <div class="child">
+        <span class="left-side">
+          <h2>Original Verse</h2>
+          <a href="https://biblia.com/bible/niv/micah/6/6-8">
+            <p>
+              Micah 6:6–8 (NIV): 6 With what shall I come before the LORD and
+              bow down before the exalted God? Shall I come before him with
+              burnt offerings, with calves a year old? 7 Will the LORD be
+              pleased with thousands of rams, with ten thousand rivers of olive
+              oil? Shall I offer my firstborn for my transgression, the fruit of
+              my body for the sin of my soul? 8 He has shown you, O mortal, what
+              is good. And what does the LORD require of you? To act justly and
+              to love mercy and to walk humbly with your God.
+            </p>
+          </a>
+          <center>
+            <img src="images/love image.svg" alt="spread love" width="385px" />
+          </center>
+        </span>
+      </div>
+      <div class="child">
+        <span class="right-side">
+          <h2>Explanation of the Verse</h2>
+          <p>
+            This verse is trying to make us reflect on what God asks of us, and
+            that is mainly the idea of loving Him and others the way He loves
+            you, to try doing the right thing, and being humble wherever you go.
+            He says that at the end of the verse, the rest is then built by
+            using examples of what people would usually do to “clean” themselves
+            and be a little bit worthy of God’s love back in the time of Micah.
+            A good example used is Abraham and his son when the verse talks
+            about offering the firstborn for their transgressions. Other
+            examples include what they would most likely do and that is offers
+            some of their animals to God, especially calves, which is also a
+            representation of Jesus's death for us because he is the lamb that
+            died so we could be “clean” from sin if we decided to walk with Him.
+            With that, the verse is trying to tell us that the way to please God
+            is to maybe offer Him something that matters to you nowadays like
+            giving up your phone for some time and/or using your life to be an
+            instrument of God’s work and spread his gospel to other people.
+          </p>
+          <center>
+            <img
+              src="images/bible love.svg"
+              alt="women reading the bible"
+              width="250px"
+            />
+          </center>
+        </span>
+      </div>
+    </div>
+    <div class="button">
+      <button>Now go grade my Last Memory Verse!</button>
+    </div>
+    <script>
+      function applyButton() {
+        let name = prompt("What is your name?").toLowerCase();
+        if (name === "daniel") {
+          alert(
+            "Hi Pastor Gregory, I hope you liked this memory verse, I'll miss making them, but maybe in the future I'll be making way bigger stuff than this. Thanks for the opportunity!"
+          );
+        }
+      }
+      let firstButton = document.querySelector("button");
+      firstButton.addEventListener("click", applyButton);
+      function goTo() {
+        console.log("click");
+        window.location = "https://app.schoology.com/home";
+        console.log(window.location);
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", goTo);
+    </script>
+  </body>
+</html>

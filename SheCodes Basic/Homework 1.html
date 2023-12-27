@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Week 1</title>
+    <style>
+      p {
+        text-align: center;
+        font-size: x-large;
+      }
+      button {
+          display: block;
+          margin: 20px auto;
+          background-color: #1a64de;
+          color: white;
+          padding: 20px 25px;
+          border: 1px solid #1a64de;
+          border-radius: 30px;
+          box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.2);
+          transition: all 200ms ease-in-out;
+      }
+      button:hover {
+          background-color: white;
+          color: #1a64de;
+          cursor: pointer;
+      }
+      .Place {
+        text-align: center;
+        color: #1a64de;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .min {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .max {
+        font-weight: bold;
+      }
+      .tomorrow {
+          display: block;
+          text-align: center;
+          transition: all 200ms ease-in-out;
+           margin: 0px 500px;
+      }
+      .tomorrow:hover {
+          border: -1px solid #ffebbb;
+          background-color: #ffebbb;
+          border-radius: 20px;
+      }
+      .size-tomorrow {
+          font-size: larger;
+      }
+      .monday {
+          display: block;
+          text-align: center;
+          transition: all 200ms ease-in-out;
+           margin: 0px 500px;
+      }
+      .monday:hover {
+          border: -1px solid #ffebbb;
+          background-color: #ffebbb;
+          border-radius: 20px;
+      }
+      .size-monday {
+          font-size: larger;
+      }
+      .tuesday {
+          display: block;
+          text-align: center;
+          transition: all 200ms ease-in-out;
+           margin: 0px 500px;
+      }
+      .tuesday:hover {
+           border: -1px solid #ffebbb;
+          background-color: #ffebbb;
+          border-radius: 20px;
+      }
+      .size-tuesday {
+          font-size: larger;
+      }
+      .final {
+          font-size: larger;
+      }
+    </style>
+  </head>
+  <body>
+    <p>⛅</p>
+    <div class="Place">
+      <h1>Currently 8° in Grizzly Flats</h1>
+    </div>
+    <div class="min"> <h1>5° / <span class="max"> 10° </h1> </span></div>
+    <div class="tomorrow">
+        <h3>
+            ☀️Tomorrow
+        </h3>
+        <span class="size-tomorrow">
+            7° / <strong> 18° </strong> </span>
+    </div>
+    <div class="monday">
+        <h3>
+            🌥️Monday
+        </h3>
+        <span class="size-monday">
+            6° / <strong> 15°</strong>
+        </span>
+    </div>
+    <div class="tuesday">
+        <h3> 🌧️Tuesday</h3>
+        <span class="size-tuesday">
+            5° / <strong>10°</strong>
+        </span>
+    </div>
+    <button>
+        Change city
+    </button>
+    <p class="final">
+        Coded by Rebeca Souza
+    </p>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+<head>
+<style> 
+    body {background-color: lightblue;}
+    h4 {color: black;
+    text-align: left;}
+    h2 {color: black;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif}
+    button {
+        display: inline-block;
+        background-color: #7b38d8;
+        border-radius: 10px;
+        border: 2px double #ffea00;
+        color: #e9f109;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        width: 150px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+</style>
+</head>
+<body>
+<h2>Memory Verse - Quarter 4</h2>
+<h4> Rebeca Souza <br> 04/08/2022 <br> Religion IV <br> Isaiah 53: 1-6</h4>
+<div>
+    <center>
+    <button onclick="Original()">Original Verse!</button>
+    <p id="demo"></p>
+    </center>
+    <script>
+      function Original() {
+        document.getElementById("demo").innerHTML = "Who has believed our message and to whom has the arm of the Lord been revealed? <br>He grew up before him like a tender shoot,and like a root out of dry ground.He had no beauty or majesty to attract us to him, nothing in his appearance that we should desire him.<br>He was despised and rejected by mankind,a man of suffering, and familiar with pain.<br>Like one from whom people hide their faces he was despised, and we held him in low esteem.<br>Surely he took up our pain and bore our suffering,yet we considered him punished by God,stricken by him, and afflicted.<br>But he was pierced for our transgressions,he was crushed for our iniquities;the punishment that brought us peace was on him,and by his wounds we are healed.<br> We all, like sheep, have gone astray,each of us has turned to our own way;and the Lord has laid on him the iniquity of us all"
+      }
+    </script>
+</div>
+<div>
+    <center>
+        <button onclick="Explanation()"> Explanation!</button>
+    <p id="paraphrased"></p>
+    </center>
+    <script>
+        function Explanation() {
+            document.getElementById("paraphrased").innerHTML="This Memory verse starts with Isaiah trying to say that people wouldn’t believe what he was saying about the time when Jesus would come, even though God was the one who told him all of that, so he was 100% accurate.<br> After that, Isaiah now details that Jesus didn’t have anything that pulled people closer to him (you can also read as ‘he lacked something from our sinful world that would invite people to Him’), what would happen to Jesus, how badly he would be treated, and how people would see him. <br> And the point here is that, even with him being treated and seen as bad as it is detailed, he would take our pain from us,  he would give himself for our transgressions, he was okay with being crushed by our sins so that we could have the peace, and prize that he deserved not us. <br> God decided to put upon Jesus all of our injustice and sins caused because all He wanted was for us to be with Him and we ran away and decided to live on our own."
+        }
+    </script>
+</div>
+    </section> 
+    </body>
+    </html>   

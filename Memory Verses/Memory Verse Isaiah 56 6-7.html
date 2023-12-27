@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory verse - Isaiah 56</title>
+    <style>
+      body {
+        background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+      }
+      hr {
+        height: 2px;
+        background-color: rgb(57, 57, 57);
+        border: none;}
+
+        li {
+        list-style: none;
+        display: inline;
+        margin: 0 10px;
+      }
+      ul {
+        font-size: large;
+        font-weight: bold;
+        padding: 0;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      h1,
+      h3,
+      li, h4 {
+        text-align: center;
+
+      }
+      h2 {
+          text-align: center;
+      }
+      button {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        background-color: #4bd9fd;
+        padding: 15px 25px;
+        border: 1px solid black;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+          background-color: #7c00f0;
+          color: white;
+          cursor: pointer;
+      }
+      a {
+          color: black;
+          text-decoration: none;
+      }
+      a:hover {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="header">
+     <h1>Memory Verse of the Week</h1>
+        <h3> Isaiah 56: 6-7</h3>
+      </div>
+    <hr />
+    <ul>
+      <li class="me">
+          <a href=https://www.instagram.com/rebeca0990/ target="_blank">Rebeca Souza
+          </a>
+          </li>
+      <li class="deg">
+          <a href=http://www.danielegregory.info/Classes.html target="_blank">Religion IV </a>
+        </li>
+      <li>04/27/2022</li>
+    </ul>
+    <hr />
+    <div class="Original">
+      <h2>Original Verse</h2>
+      <button class="original-button" onclick="orig()">Click to reveal text!</button>
+      <p id="overse"></p>
+    </div>
+    <hr>
+    <div class="explanation">
+        <h2> Explanation of the Verse </h2>
+        <button class="end-button" onclick="expla()">Click to understand the text!</button>
+        <p id=explan></p>
+    </div>
+    <hr>
+    <script>
+        function index(){
+        let name=prompt("What is your name?")
+        let sentence="I'm glad you're interested in learning more about religion!"
+        let fullSentence="Hi "+name+", " +sentence
+        alert(fullSentence)}
+        function end(){
+            let question=prompt("Do you think you fully understood everything said in the Original Verse? (Answer with Yes or No)")
+            if (question==="Yes"){
+                alert("Let's check it out then!")
+            }
+            if (question==="No"){
+            alert("I hope you understand this text and the Bible overall after this explanation, and please let me know how I can improve!")
+        }}
+        let indexButton=document.querySelector(".original-button");
+        indexButton.addEventListener("click", index);
+        let endButton=document.querySelector(".end-button");
+        endButton.addEventListener("click", end)
+        function orig(){
+        document.getElementById("overse").innerHTML ="And foreigners who bind themselves to the Lord to minister to him, to love the name of the Lord, and to be his servants, all who keep the Sabbath without desecrating it and who hold fast to my covenant— these I will bring to my holy mountain and give them joy in my house of prayer. Their burnt offerings and sacrifices will be accepted on my altar; for my house will be called a house of prayer for all nations"}
+        function expla(){
+        document.getElementById("explan").innerHTML ="This passage from Isaiah is breaking the line of thought that only the chosen people by doing what is righteous will go to heaven. The way that it breaks is by saying that a foreigner that decides to give their life to God, respects the commandments, especially love and praise God, keeps the sabbath holy, and understands the value of God’s allegiance with humans will have a place in heaven. More specifically God is saying that those who do that will receive joy and all of their offerings will be accepted. And with this important verse, he finishes off by saying that God is the God of all nations, not just a chosen one, and therefore his house of prayer is for all nations. So, as I said before, this is important because it makes Christianity actually available to the rest of the world, so later on, with the new testament we can do what is said in Matthew 28:19, “Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit”."}
+   </script>
+  </body>
+</html>
