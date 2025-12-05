@@ -1,0 +1,3 @@
+[submodule "IT Projects/NetworkToolPowerShell"]
+	path = IT Projects/NetworkToolPowerShell
+	url = https://github.com/rebeca9090/powershell-final-project.git
